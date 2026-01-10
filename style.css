@@ -40,3 +40,75 @@ a{
     border-radius: 5px;
     margin-left: 32px;
 }
+
+.banner-section {
+    background-image: url('assets/hero-bg.png'); 
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.access-badge {
+    display: inline-flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 6px 14px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #4A9C68;
+}
+
+.badge-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #4A9C68;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+h1 {
+    font-size: 55px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+h1 .not-just {
+    color: #4A9C68;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    opacity: 0.8;
+}
+
+.cta-buttons button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.btn-primary {
+    background-color: #4A9C68;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
