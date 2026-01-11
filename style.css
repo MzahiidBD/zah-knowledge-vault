@@ -50,34 +50,26 @@ a{
     text-align: center;
 }
 
-.container {
+.banner-container {
     max-width: 700px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-.access-badge {
+.access{
     display: inline-flex;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 6px 14px;
+    background-color: white;
+    padding: 8px 16px;
     border-radius: 50px;
     font-size: 14px;
-    font-weight: bold;
-    margin-bottom: 20px;
+    font-weight: semi-bold;
     color: #4A9C68;
-}
-
-.badge-dot {
-    width: 8px;
-    height: 8px;
-    background-color: #4A9C68;
-    border-radius: 50%;
-    margin-right: 8px;
 }
 
 h1 {
     font-size: 55px;
+    color: white;
     margin-bottom: 20px;
     line-height: 1.2;
 }
@@ -109,7 +101,7 @@ p {
 .btn-secondary {
     background-color: transparent;
     color: white;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    border: 1px solid white;
 }
 
 #notes {
@@ -164,6 +156,58 @@ p {
     line-height: 20px;
     color: #627382;
 }
+
+.second-brain-section {
+    padding: 120px;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.concept-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.subtitle {
+    color: #30B868;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+h1.structure {
+    font-size: 40px;
+    color: #111827;
+    line-height: auto;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: #4b5563;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.feature-list {
+    list-style: none;
+}
+
+.feature-list li {
+    margin-bottom: 12px;
+    padding-left: 30px;
+    background: url('assets/CheckCircle.png') no-repeat left center;
+    background-size: 20px;
+    color: #374151;
+}
+
 
 
 
