@@ -40,6 +40,9 @@ a{
     border-radius: 5px;
     margin-left: 32px;
 }
+.btn:hover {
+    background-color: #e0d50a;
+}
 
 .banner-section {
     background-image: url('assets/hero-bg.png'); 
@@ -97,11 +100,18 @@ p {
     background-color:  #30b868;
     color: white;
 }
+.btn-primary:hover {
+    background-color: #e0d50a;
+}
 
 .btn-secondary {
     background-color: transparent;
     color: white;
     border: 1px solid white;
+}
+.btn-secondary:hover {
+    background-color: white;
+    color: #30b868;
 }
 
 #notes {
@@ -236,7 +246,7 @@ h1.structure {
 }
 
 .cta-button {
-  background-color: #4f8f63;
+  background-color:#30b868;
   color: white;
   border: none;
   padding: 14px 32px;
@@ -255,6 +265,58 @@ h1.structure {
   font-size: 14px;
   color: #6b7280;
 }
+
+.footer {
+  background: #021a33;
+  color: #ffffff;
+  padding: 120px 120px 30px 120px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left img {
+  width: 139px;
+  height: 60px;
+}
+
+.footer-right p {
+  margin-bottom: 10px;
+  font-weight: semi-bold;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons a {
+  width: 23px;
+  height: 23px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #021a33;
+  font-size: 15px;
+}
+
+.footer hr {
+  margin: 30px 0 15px;
+  border: none;
+  height: 1px;
+  background: rgb(184, 183, 183)
+}
+
+.footer .copyright {
+  text-align: center;
+  font-size: 18px;
+}
+
 
 
 
